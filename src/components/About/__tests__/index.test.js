@@ -12,7 +12,7 @@ describe('About component', () => { // 'describe' declares which component is be
     it('renders', () => { // verify component is rendering 
         render(<About />); 
     }); 
-
+    // second test
     it('matches snaphot DOM node structure', () => { // snapshot -> serialized version of DOM node structure
         const { asFragment } = render(<About />); // asFragment returns snapshot of About component 
         expect(asFragment()).toMatchSnapshot(); 
